@@ -1,0 +1,94 @@
+/*--Author: Emma Nolan
+	Date: 06/07/2017
+	Title: Milk Website--*/
+/*--Header--*/
+#header {
+	background-color: #b0def2;
+	padding-top: 4px;
+	box-sizing: border-box;
+	margin: 5px;
+	width: 75%;
+	margin-left: 12.5%;
+}
+
+#header img {
+	width: 50%; 
+	margin-left: 25%;
+}
+/*--Navigation--*/
+#nav {
+	margin: 7px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b0def2;
+	width: 100%;
+}
+
+#nav li {
+    float: left;
+	width: 33.3333333333%;
+}
+
+.active {background-color: #56c7f0;}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding: 5px 0;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #56c7f0;
+	font-weight: bold;
+}
+/*--Footer--*/
+#footer {
+	background-color: #b0def2;
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+/*--For a responsive design:--*/
+/*--Big screens--*/
+@media screen and (min-width: 1281px) {
+	#nav {font-size: 20pt; width:75%; margin-left:12.5%;}
+	#header {width:75%; margin-left:12.5%;}
+	#feature {font-size: 20pt; width:75%; margin-left:12.5%;}
+	#articles {font-size: 16pt; width: 75%; margin-left:12.5%;}
+	#footer {width:75%; margin-left:12.5%;}
+	#content {width:75%; margin-left:12.5%;}
+	#content h2 {font-size: 32pt;}
+	#content h3 {font-size: 24pt;}
+	#content img {height:245px;}
+}
+/*--Medium screens--*/
+@media screen and (max-width: 1280px) {
+	#nav {font-size: 16pt; width:80%; margin-left:10%;}
+	#header {width:80%; margin-left:10%;}
+	#feature {font-size: 14pt; width:80%; margin-left:10%;}
+	#articles {font-size:11pt; width:80%; margin-left:10%;}
+	#footer {width:80%; margin-left:10%;}
+	#content {width:80%; margin-left:10%;}
+	#content img {height:170px;}
+}
+/*--Small screens--*/
+@media screen and (max-width: 768px) {
+	#nav {font-size: 14pt; width:100%; margin-left:0;}
+	#header {width:100%; margin-left:0;}
+	#feature {font-size: 10pt; width:100%; margin-left:0;}
+	#articles {font-size:10pt; width: 100%; margin-left: 0;}
+	#footer {width:100%; margin-left:0%;}
+	#content {width:100%; margin-left:0;}
+	#content img {height:150px;}
+}
